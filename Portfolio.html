@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,200,300,400" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="top-bar-bottom row">
+          <div class="col-md-6">
+            <img class="title-logo img-responsive" src="images/udacity-logo.jpg" alt="Udacity Logo">
+          </div>
+          <div class="text-right text-uppercase col-md-6">
+            <h1 class="title-super text-thin top-row-text">Ryan Ko</h1>
+            <h3 class="title-bottom top-row-text">Learner</h3>
+          </div>
+        </div>
+      </header>
+      <div class="row">
+        <img class="col-md-12 img-responsive" src="http://placehold.it/1140x350" data-toggle="modal" data-target="#portfolio" alt="Placeholder image">
+        <div class="top-bar-bottom row">
+          <p class="text-caption col-md-12">Full list of projects</p>
+        </div>
+      </div>
+      <div class="row">
+        <h2 class="text-muted col-md-6">Featured Work</h2>
+      </div>
+
+              <!-- Featured Projects -->
+      <section>
+        <div class="row row-wrap text-center">
+          <div class="col-md-4">
+            <img class="img-responsive" src="http://placehold.it/555x300" data-toggle="modal" data-target="#project1" alt="Placeholder image">
+            <h3>Portfolio</h3>
+            <p><a href="http://github.com">Link to project</a></p>
+          </div>
+          <div class="col-md-4">
+            <img class="img-responsive" src="http://placehold.it/555x300" data-toggle="modal" data-target="#project2" alt="Placeholder image">
+            <h3>Online Resume</h3>
+            <p><a href="http://github.com">Link to project</a></p>
+          </div>
+          <div class="col-md-4">
+            <img class="img-responsive" src="http://placehold.it/555x300" data-toggle="modal" data-target="#project3" alt="Placeholder image">
+            <h3>Pending Third Project</h3>
+            <p><a href="http://github.com">Link to project</a></p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="portfolio" tabindex="-1" role="dialog" aria-labelledby="big-modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="big-modal-label">Included Projects</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placehold.it/1140x350" alt="Big placeholder image">
+            <p> In this portfolio will be all of the projects completed throughout the course of this nanodegree, and then whatever comes after.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="project-1-label">Portfolio</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placehold.it/555x300" alt="placeholder image">
+            <p>This was my first project in this class. I learned a lot about HTML and CSS. This was actually super interesting. For example, modals are very cool, even though my knowledge is basic.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="project-2-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="project-2-label">Online Resume</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placehold.it/555x300" alt="placeholder image">
+            <p>This was my second project in this class.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="project-3-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="project-3-label">Neighborhood Map</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placehold.it/555x300" alt="placeholder image">
+            <p>This was my third project in this class.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </body>
+</html>
